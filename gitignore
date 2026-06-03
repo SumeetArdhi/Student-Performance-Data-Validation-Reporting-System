@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Generated files (produced by running the pipeline)
+data/clean_students.csv
+data/validation_issues.csv
+db/student_performance.db
+reports/student_performance_report.xlsx
